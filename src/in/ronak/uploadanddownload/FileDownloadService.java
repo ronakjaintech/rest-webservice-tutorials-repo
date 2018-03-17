@@ -8,7 +8,7 @@ import javax.ws.rs.core.Response.ResponseBuilder;
  
 @Path("/files")
 public class FileDownloadService {
- 	private static final String FILE_PATH = "c:\\mypdf.pdf";
+ 	private static final String FILE_PATH = "D:\\Functional testing SMS.pdf";
  
 	@GET
 	@Path("/pdf")
@@ -18,7 +18,7 @@ public class FileDownloadService {
 		File file = new File(FILE_PATH);
  
 		ResponseBuilder response = Response.ok((Object) file);
-		response.header("Content-Disposition","attachment; filename=\"javatpoint_pdf.pdf\"");
+		response.header("Content-Disposition","attachment; filename=\"ronak.pdf\"");
 		return response.build();
  
 	}

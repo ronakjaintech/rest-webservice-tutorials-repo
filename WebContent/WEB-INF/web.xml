@@ -10,7 +10,7 @@
 		<init-param>
 			<param-name>jersey.config.server.provider.packages</param-name>
 			<param-value>
-			in.ronak.cachecontrol,in.ronak.jsonpojopost,in.ronak.messenger,in.ronak.chunkedoutput,in.ronak.cookieparam,in.ronak.httpheaders,in.ronak.pathparam,in.ronak.pathsegmentsandmatrixparam,in.ronak.queryparam
+			in.ronak.uploadanddownload,in.ronak.cachecontrol,in.ronak.jsonpojopost,in.ronak.messenger,in.ronak.chunkedoutput,in.ronak.cookieparam,in.ronak.httpheaders,in.ronak.pathparam,in.ronak.pathsegmentsandmatrixparam,in.ronak.queryparam
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
